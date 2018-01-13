@@ -1,0 +1,23 @@
+.container {
+width: 900px;
+}
+
+.videocontainer {
+    width: 640px;
+}
+section {
+    margin-bottom: 100px;
+
+}
+.video {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.left {
+    text-align: left;
+}
+
+.videomitte {
+    margin-bottom: ;
+    margin-top: 50px;
