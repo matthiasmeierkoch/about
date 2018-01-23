@@ -11,9 +11,6 @@ h2 {
     font-size: 2rem;
 }
 
-h3{
-font-weight: }
-}
 
 /* @font-face declarations */
 
@@ -59,13 +56,31 @@ width: 600px;
 }
 
 .videomitte {
-    margin-bottom: ;
     margin-top: 50px;
 
 h3{
     font-weight: lighter;
+
 }
 
 a{
+font-size: 2rem;
+}
 
+p{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.verticalLine {
+    color: #808080;
+    size: 3px;
+    border-left: thick solid #808080;
+    width: 75%;
+}
+
+.spacersmall {
+    background-color: #0000000;
+    width: 900px;
+    height: 25px;
 }
