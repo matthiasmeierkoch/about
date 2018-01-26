@@ -1,14 +1,19 @@
 @charset "UTF-8";
 
-
 h1 {
-color: #000000;
-    font-family: JeanLucWeb-Bold;
+    color: #000000;
+    font-family: JeanLucWeb-Bold ;
 }
 
 h2 {
-    font-weight: bold;
+    padding-top: 50px;
+    font-weight: 700;
     font-size: 2rem;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 
@@ -26,7 +31,6 @@ h2 {
     src: local('JeanLucWeb-thin.woff'), url("jeanlucweb-thin.woff") format("woff"), url("jeanlucweb-thin.otf") format("opentype"), url("jeanlucweb-thin#webfontdsa4toug") format("svg");
 }
 
-
 /*
 The Jean-Luc typeface was designed and made by Atelier Carvalho Bernau on the occasion of the 80th birthday of Jean-Luc Godard. It is available free of charge from http://www.carvalho-bernau.com/jlg/
 
@@ -34,7 +38,7 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 */
 
 .container {
-width: 600px;
+    width: 600px;
 }
 
 .containercenter {
@@ -57,30 +61,32 @@ width: 600px;
 
 .videomitte {
     margin-top: 50px;
+}
 
-h3{
+h3 {
     font-weight: lighter;
 
 }
 
-a{
-font-size: 2rem;
+a {
+    font-size: 1.2rem;
 }
 
-p{
-    font-size: 3em;
-    font-weight: bold;
+p {
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
 .verticalLine {
     color: #808080;
     size: 3px;
     border-left: thick solid #808080;
-    width: 75%;
+    width: 100%;
 }
 
 .spacersmall {
-    background-color: #0000000;
+    background-color: #000000;
     width: 900px;
     height: 25px;
 }
+
