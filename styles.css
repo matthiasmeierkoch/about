@@ -9,6 +9,8 @@ h2 {
     padding-top: 50px;
     font-weight: 700;
     font-size: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 h3{
@@ -76,6 +78,9 @@ p {
     font-size: 1.2em;
     font-weight: 700;
 }
+p.videocontainer{
+    margin-top: -2rem;
+}
 
 .verticalLine {
     color: #808080;
@@ -90,3 +95,26 @@ p {
     height: 25px;
 }
 
+li{
+    font-size: 1.2em;
+    font-weight: 700;
+    list-style-type: square;
+}
+
+a{
+    color: black;
+}
+
+.footer{
+
+    padding-bottom: 50px;
+}
+.footer h2{
+    padding-top:0;
+    margin-top: 0;
+}
+
+.impressum{
+    padding-bottom: 20px;
+    padding-top: -100px;
+}
